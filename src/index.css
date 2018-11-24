@@ -1,7 +1,7 @@
 body {
 background-color: #C3C3C3;
 margin:0;}
-#root{
+#appDiv{
 display:flex;
 }
 .window{
@@ -83,7 +83,7 @@ resize: none;
 border:none;
 outline: none;}
 /*previewer*/
-.window p{
+#previewer{
 font-family: 'Roboto', sans-serif;
   margin-top: 0;
   overflow-y: scroll;
